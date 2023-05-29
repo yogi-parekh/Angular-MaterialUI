@@ -1,0 +1,102 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import "~animate.css/animate.min.css";
+* {
+    font-family: "Lato", sans-serif;
+}
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --blue: #007bff;
+    --darkblue: #0370e4;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --black: #000000;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.home_toolbar.mat-toolbar.mat-primary {
+    background: transparent;
+    color: #000;
+    position: fixed;
+    z-index: 1;
+}
+.on-scroll {
+    -webkit-box-shadow: 0 4px 5px -2px rgba(128, 173, 255, 0.06), 0 7px 10px 1px rgba(128, 173, 255, 0.042),
+        0 2px 16px 1px rgba(128, 173, 255, 0.036);
+    -moz-box-shadow: 0 4px 5px -2px rgba(128, 173, 255, 0.06), 0 7px 10px 1px rgba(128, 173, 255, 0.042),
+        0 2px 16px 1px rgba(128, 173, 255, 0.036);
+    box-shadow: 0 4px 5px -2px rgba(128, 173, 255, 0.06), 0 7px 10px 1px rgba(128, 173, 255, 0.042),
+        0 2px 16px 1px rgba(128, 173, 255, 0.036);
+    background-color: #fff !important;
+}
+
+.button_up {
+    i {
+        text-align: center;
+        /* top: 31px; */
+        /* line-height: 1.3; */
+        margin-left: 12px;
+        margin-top: 8px;
+        font-size: 18px;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    height: 36px;
+    width: 36px;
+    outline: none;
+    background-color: var(--gray);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+#myBtn:hover {
+    background-color: var(--gray-dark);
+}
